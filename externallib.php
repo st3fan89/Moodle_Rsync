@@ -34,7 +34,7 @@ require_once($CFG->dirroot . '/mod/resource/locallib.php');
 /**
  * Class local_rsync_external
  */
-class local_rsync_external extends external_api {
+class local_rsync_external extends \core_external\external_api {
 
     /**
      * Returns description of method parameters
