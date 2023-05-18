@@ -38,7 +38,7 @@ require_once($CFG->dirroot . "/backup/util/includes/restore_includes.php");
 /**
  * Class local_rsync_course
  */
-class local_rsync_course extends external_api {
+class local_rsync_course extends \core_external\external_api {
 
     /**
      * Returns description of method parameters
